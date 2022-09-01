@@ -5839,4 +5839,10 @@
     <!-- Maximum time in millisecs for telephony should wait to deactivate data call
          when user turned off mobile data or data roaming during CIWLAN -->
     <integer name="config_maximumDelayTimeToDeactivateDataCall">7000</integer>
+
+    <!-- Fingerprint from a certified device against current platform SPL level --> 
+    <string name="config_certifiedFingerprint" translatable="false"></string>
+
+    <!-- Fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false"></string>
 </resources>
